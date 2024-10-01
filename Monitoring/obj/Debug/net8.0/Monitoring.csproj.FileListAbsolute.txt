@@ -1,0 +1,15 @@
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\bin\Debug\net8.0\Monitoring.exe
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\bin\Debug\net8.0\Monitoring.deps.json
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\bin\Debug\net8.0\Monitoring.runtimeconfig.json
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\bin\Debug\net8.0\Monitoring.dll
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\bin\Debug\net8.0\Monitoring.pdb
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.GeneratedMSBuildEditorConfig.editorconfig
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.AssemblyInfoInputs.cache
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.AssemblyInfo.cs
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.csproj.CoreCompileInputs.cache
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.sourcelink.json
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.dll
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\refint\Monitoring.dll
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.pdb
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\Monitoring.genruntimeconfig.cache
+D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\Monitoring\obj\Debug\net8.0\ref\Monitoring.dll
