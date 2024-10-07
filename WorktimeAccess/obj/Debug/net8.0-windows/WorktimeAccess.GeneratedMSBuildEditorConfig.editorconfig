@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WorktimeAccess
-build_property.ProjectDir = D:\Studie\PBSW\Semester1\DLS(Development_of_large_Systems)\U39_40\Monitoring\WorktimeAccess\
+build_property.ProjectDir = C:\Users\Danie\Monitoring\WorktimeAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
