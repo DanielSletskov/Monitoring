@@ -5,12 +5,6 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorktimeAccess", "WorktimeAccess\WorktimeAccess.csproj", "{1741B6E0-E4EB-46DF-B0A3-035F35BB3122}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeService", "EmployeeService\EmployeeService.csproj", "{7BDAE6FC-2BC1-4347-8536-62D3598D7204}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepartmentService", "DepartmentService\DepartmentService.csproj", "{C966C781-F48F-4C2B-8328-6A8A11115C41}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkplanService", "WorkplanService\WorkplanService.csproj", "{315F423A-D5F1-4622-9659-769E624C897C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,18 +15,6 @@ Global
 		{1741B6E0-E4EB-46DF-B0A3-035F35BB3122}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1741B6E0-E4EB-46DF-B0A3-035F35BB3122}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1741B6E0-E4EB-46DF-B0A3-035F35BB3122}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BDAE6FC-2BC1-4347-8536-62D3598D7204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BDAE6FC-2BC1-4347-8536-62D3598D7204}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BDAE6FC-2BC1-4347-8536-62D3598D7204}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BDAE6FC-2BC1-4347-8536-62D3598D7204}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C966C781-F48F-4C2B-8328-6A8A11115C41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C966C781-F48F-4C2B-8328-6A8A11115C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C966C781-F48F-4C2B-8328-6A8A11115C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C966C781-F48F-4C2B-8328-6A8A11115C41}.Release|Any CPU.Build.0 = Release|Any CPU
-		{315F423A-D5F1-4622-9659-769E624C897C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{315F423A-D5F1-4622-9659-769E624C897C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{315F423A-D5F1-4622-9659-769E624C897C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{315F423A-D5F1-4622-9659-769E624C897C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
