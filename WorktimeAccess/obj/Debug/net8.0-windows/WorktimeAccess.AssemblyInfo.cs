@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WorktimeAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+619459b805e050921028841092b3edf282d7caaf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+103e0e1530146938e27d0277ae1682a32df2ec71")]
 [assembly: System.Reflection.AssemblyProductAttribute("WorktimeAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WorktimeAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
