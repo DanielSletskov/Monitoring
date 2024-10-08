@@ -1,0 +1,13 @@
+version: "3.0"
+
+services:
+  app:
+    build: ./app
+    container_name: web_app
+    environment:
+      AZURE_SQL_SERVER: database-study.database.windows.net
+      AZURE_SQL_DATABASE: "EmployWorktime"
+      AZURE_SQL_USER: "Danielssmidt"
+      AZURE_SQL_PASSWORD: "#Mafaha43"
+    ports:
+      - "5000:80"

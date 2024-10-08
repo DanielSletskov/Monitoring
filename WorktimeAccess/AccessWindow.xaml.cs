@@ -8,6 +8,13 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+//TRACE AND LOGGING 
+using System.Collections.Generic;
+using OpenTelemetry;
+using OpenTelemetry.Exporter.Zipkin;
+using OpenTelemetry.Extensions.Hosting;
+using Serilog;
+using Serilog.Sinks.Seq;
 
 namespace WorktimeAccess;
 
@@ -23,6 +30,7 @@ public partial class AccessWindow : Window
 
     private void Get_EMP(object sender, RoutedEventArgs e)
     {
-        throw new NotImplementedException();
+        // Your button click logic here
+        MessageBox.Show("Button was clicked!");
     }
 }
