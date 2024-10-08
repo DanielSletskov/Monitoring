@@ -15,6 +15,7 @@ using OpenTelemetry.Exporter.Zipkin;
 using OpenTelemetry.Extensions.Hosting;
 using Serilog;
 using Serilog.Sinks.Seq;
+using EmployeeService;
 
 namespace WorktimeAccess;
 
@@ -32,5 +33,7 @@ public partial class AccessWindow : Window
     {
         // Your button click logic here
         MessageBox.Show("Button was clicked!");
+        //function call to service for 
+        
     }
 }

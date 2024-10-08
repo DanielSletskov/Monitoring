@@ -16,4 +16,10 @@
       <PackageReference Include="Serilog.Sinks.Seq" Version="8.0.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\DepartmenService\DepartmenService.csproj" />
+      <ProjectReference Include="..\EmployeeService\EmployeeService.csproj" />
+      <ProjectReference Include="..\WorkplanService\WorkplanService.csproj" />
+    </ItemGroup>
+
 </Project>
