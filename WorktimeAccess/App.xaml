@@ -4,5 +4,6 @@
              StartupUri="AccessWindow.xaml">
     <Application.Resources>
          <TextBox x:Key="" Name="inputField" Width="200" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" />
+         
     </Application.Resources>
 </Application>

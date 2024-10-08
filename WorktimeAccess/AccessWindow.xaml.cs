@@ -20,4 +20,9 @@ public partial class AccessWindow : Window
     {
         InitializeComponent();
     }
+
+    private void Get_EMP(object sender, RoutedEventArgs e)
+    {
+        throw new NotImplementedException();
+    }
 }
