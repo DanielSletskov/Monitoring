@@ -1,0 +1,6 @@
+﻿services:
+  monitoringservice:
+    image: monitoringservice
+    build:
+      context: .
+      dockerfile: MonitoringService/Dockerfile
