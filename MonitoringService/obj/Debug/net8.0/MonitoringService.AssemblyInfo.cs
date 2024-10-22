@@ -10,11 +10,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-MonitoringService-a392bc9a-821f-4502-9453-6a85c9ab30f7")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("dotnet-MonitoringService-ba2e5ccf-4fa6-4721-a710-2651f696485d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("MonitoringService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2e3d4ccb427a865534b7c3add07a0e599526f17b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b64efb2243ee3c9e0d7d0c2183ee7b2ec8ba7384")]
 [assembly: System.Reflection.AssemblyProductAttribute("MonitoringService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MonitoringService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

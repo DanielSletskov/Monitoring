@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>dotnet-MonitoringService-a392bc9a-821f-4502-9453-6a85c9ab30f7</UserSecretsId>
+        <UserSecretsId>dotnet-MonitoringService-ba2e5ccf-4fa6-4721-a710-2651f696485d</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 

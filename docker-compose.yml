@@ -1,6 +1,37 @@
 ﻿services:
-  monitoringservice:
+  MonitoringService:
     image: monitoringservice
     build:
       context: .
       dockerfile: MonitoringService/Dockerfile
+
+  WorkerPlanDesktop:
+    image: workerplandesktop
+    build:
+      context: .
+      dockerfile: WorkerPlanDesktop/Dockerfile
+
+
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+
+  webplaner:
+    image: webplaner
+    build:
+      context: .
+      dockerfile: WebPlaner/Dockerfile
+
+  monitorapp:
+    image: monitorapp
+    build:
+      context: .
+      dockerfile: MonitorApp/Dockerfile
+
+  systemservice:
+    image: systemservice
+    build:
+      context: .
+      dockerfile: SystemService/Dockerfile

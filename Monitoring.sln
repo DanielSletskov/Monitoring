@@ -3,12 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPlaner", "WebPlaner\WebPlaner.csproj", "{6EFDB9A0-5BBA-4BE7-8188-6A21D8B7599D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorApp", "MonitorApp\MonitorApp.csproj", "{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SystemService", "SystemService\SystemService.csproj", "{CFCB9172-3EA2-490B-BEE8-661E9BB8365D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EFDB9A0-5BBA-4BE7-8188-6A21D8B7599D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EFDB9A0-5BBA-4BE7-8188-6A21D8B7599D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EFDB9A0-5BBA-4BE7-8188-6A21D8B7599D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EFDB9A0-5BBA-4BE7-8188-6A21D8B7599D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCB9172-3EA2-490B-BEE8-661E9BB8365D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCB9172-3EA2-490B-BEE8-661E9BB8365D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCB9172-3EA2-490B-BEE8-661E9BB8365D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCB9172-3EA2-490B-BEE8-661E9BB8365D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
