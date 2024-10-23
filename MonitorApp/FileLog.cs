@@ -4,7 +4,7 @@ namespace MonitorApp;
 using System;
 using System.IO;
 
-public class FileLog : ILogger
+public class FileLog : ILog
 {
     private static readonly string _logFilePath = @"C:\Users\Danie\Monitoring\MonitorApp\Logging\";
 
@@ -13,25 +13,25 @@ public class FileLog : ILogger
     }
     
     //Log usage information 
-    public static void LogInfo(string message)
+    public void LogInfo(string message)
     {
         Log("INFO", message, _logFilePath);
     }
 
     //Log warning 
-    public static void LogWarning(string message)
+    public void LogWarning(string message)
     {
         Log("WARNING", message, _logFilePath);
     }
 
     //Logging Errors
-    public static void LogError(string message, Exception ex)
+    public void LogError(string message, Exception ex)
     {
         Log("ERROR", message + (ex != null ? $" Exception: {ex.Message}" : ""), null);
     }
     
     // Private method to handle actual logging
-    private static void Log(string logLevel, string message, string _logFilePath)
+    public void Log(string logLevel, string message, string _logFilePath)
     {
         DateTime now = DateTime.Now;
         string fileName = now.ToString("yyyy-MM-dd") +".txt"; 

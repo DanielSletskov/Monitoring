@@ -35,3 +35,9 @@
     build:
       context: .
       dockerfile: SystemService/Dockerfile
+
+  planservice:
+    image: planservice
+    build:
+      context: .
+      dockerfile: PlanService/Dockerfile
