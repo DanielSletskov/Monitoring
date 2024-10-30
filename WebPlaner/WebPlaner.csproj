@@ -1,0 +1,113 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\MonitorApp\MonitorApp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="EmployeeService\EmployeeService\Pages\Shared\_Layout.cshtml.css">
+        <Link>EmployeeService\WebApplication1\Pages\Shared\_Layout.cshtml.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\js\site.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\js\site.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\css\site.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\css\site.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery\dist\jquery.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery\dist\jquery.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery\LICENSE.txt">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery\LICENSE.txt</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\js\bootstrap.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\bootstrap\LICENSE">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\bootstrap\LICENSE</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery-validation\dist\jquery.validate.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery-validation\dist\jquery.validate.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery-validation\dist\additional-methods.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery-validation\dist\additional-methods.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery-validation\LICENSE.md">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery-validation\LICENSE.md</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js">
+        <Link>EmployeeService\WebApplication1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js</Link>
+      </None>
+      <None Update="EmployeeService\EmployeeService\wwwroot\favicon.ico">
+        <Link>EmployeeService\WebApplication1\wwwroot\favicon.ico</Link>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="EmployeeService\EmployeeService\Pages\Error.cshtml.cs">
+        <Link>EmployeeService\WebApplication1\Pages\Error.cshtml.cs</Link>
+      </Compile>
+      <Compile Update="EmployeeService\EmployeeService\Pages\Index.cshtml.cs">
+        <Link>EmployeeService\WebApplication1\Pages\Index.cshtml.cs</Link>
+      </Compile>
+      <Compile Update="EmployeeService\EmployeeService\Pages\Privacy.cshtml.cs">
+        <Link>EmployeeService\WebApplication1\Pages\Privacy.cshtml.cs</Link>
+      </Compile>
+      <Compile Update="EmployeeService\EmployeeService\Program.cs">
+        <Link>EmployeeService\WebApplication1\Program.cs</Link>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Update="EmployeeService\EmployeeService\Properties\launchSettings.json">
+        <Link>EmployeeService\WebApplication1\Properties\launchSettings.json</Link>
+      </Content>
+      <Content Update="EmployeeService\EmployeeService\appsettings.json">
+        <Link>EmployeeService\WebApplication1\appsettings.json</Link>
+      </Content>
+      <Content Update="EmployeeService\EmployeeService\appsettings.Development.json">
+        <Link>EmployeeService\WebApplication1\appsettings.Development.json</Link>
+      </Content>
+    </ItemGroup>
+
+</Project>

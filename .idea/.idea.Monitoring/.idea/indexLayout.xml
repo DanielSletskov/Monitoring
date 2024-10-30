@@ -4,6 +4,7 @@
     <attachedFolders>
       <Path>Diagrams</Path>
       <Path>Logging</Path>
+      <Path>Queries</Path>
       <Path>Tracing</Path>
     </attachedFolders>
     <explicitIncludes />
