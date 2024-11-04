@@ -1,43 +1,20 @@
-﻿services:
-  MonitoringService:
-    image: monitoringservice
-    build:
-      context: .
-      dockerfile: MonitoringService/Dockerfile
+﻿version: '3.8'
 
-  WorkerPlanDesktop:
-    image: workerplandesktop
-    build:
-      context: .
-      dockerfile: WorkerPlanDesktop/Dockerfile
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:latest
+    container_name: sqlserver_container
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "YourStrong!Passw0rd"
+      ACCEPT_EULA: "Y"
 
-
-  webapplication1:
-    image: webapplication1
-    build:
-      context: .
-      dockerfile: WebApplication1/Dockerfile
-
-  webplaner:
-    image: webplaner
-    build:
-      context: .
-      dockerfile: WebPlaner/Dockerfile
-
-  monitorapp:
-    image: monitorapp
-    build:
-      context: .
-      dockerfile: MonitorApp/Dockerfile
-
-  systemservice:
-    image: systemservice
-    build:
-      context: .
-      dockerfile: SystemService/Dockerfile
-
-  planservice:
-    image: planservice
-    build:
-      context: .
-      dockerfile: PlanService/Dockerfile
+  your_service_name:
+    image: sha256:a8e361e0e175d0bcd65b024ed8f961b0d8472dc00a16b14b6979709d5c341c3d
+    environment:
+      - CONNECTION_STRING=Server=sqlserver_container;Database=YourDatabaseName;User Id=sa;Password=YourStrong!Passw0rd;
+    ports:
+      - "8080:80"
+    depends_on:
+      - sqlserver

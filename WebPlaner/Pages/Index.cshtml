@@ -1,0 +1,39 @@
+﻿@page
+@using System.Reflection
+@using System.Runtime.CompilerServices
+@using System.Runtime.InteropServices.JavaScript
+@using MonitoringApp;
+@using API_Application.Controllers;
+
+@model IndexModel
+
+
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <button onclick="@FetchData()" type="button">Click Me to get Data</button>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    
+</div>
+@{
+FileLog _log = new FileLog();
+ViewData["Title"] = "Home page";
+}
+@functions{
+    @* This is for calling bigger funktions *@   
+    public string FetchData()
+    {
+        string Employeename = null;
+        FileLog _log = new FileLog();
+        _log.LogInfo(MethodBase.GetCurrentMethod().ToString());
+        return("tom"); 
+    }
+}
+for
+@code{
+    @* This is for calling bigger funktions *@   
+    
+    
+    
+    
+}

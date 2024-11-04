@@ -1,0 +1,15 @@
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.AssemblyInfoInputs.cache
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.AssemblyInfo.cs
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.csproj.CoreCompileInputs.cache
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.sourcelink.json
+C:\Users\Danie\Monitoring\MonitoringApp\bin\Debug\net8.0\MonitoringApp.exe
+C:\Users\Danie\Monitoring\MonitoringApp\bin\Debug\net8.0\MonitoringApp.deps.json
+C:\Users\Danie\Monitoring\MonitoringApp\bin\Debug\net8.0\MonitoringApp.runtimeconfig.json
+C:\Users\Danie\Monitoring\MonitoringApp\bin\Debug\net8.0\MonitoringApp.dll
+C:\Users\Danie\Monitoring\MonitoringApp\bin\Debug\net8.0\MonitoringApp.pdb
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.dll
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\refint\MonitoringApp.dll
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.pdb
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\MonitoringApp.genruntimeconfig.cache
+C:\Users\Danie\Monitoring\MonitoringApp\obj\Debug\net8.0\ref\MonitoringApp.dll

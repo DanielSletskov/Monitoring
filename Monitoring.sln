@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitorApp", "MonitorApp\MonitorApp.csproj", "{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringApp", "MonitoringApp\MonitoringApp.csproj", "{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPlaner", "WebPlaner\WebPlaner.csproj", "{D7855DDA-119D-4214-9701-13A830D231CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API_Application", "API_Application\API_Application.csproj", "{85AECE74-00C7-4F52-AFF2-6DB81191F7F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE75BF9E-AEE9-4BA5-A012-3A3EA6C44B43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7855DDA-119D-4214-9701-13A830D231CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7855DDA-119D-4214-9701-13A830D231CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7855DDA-119D-4214-9701-13A830D231CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7855DDA-119D-4214-9701-13A830D231CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85AECE74-00C7-4F52-AFF2-6DB81191F7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85AECE74-00C7-4F52-AFF2-6DB81191F7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85AECE74-00C7-4F52-AFF2-6DB81191F7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85AECE74-00C7-4F52-AFF2-6DB81191F7F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
