@@ -1,9 +1,9 @@
-### Goal for solution
-Return text from azure database to the web application</br>
+### READ ME 
 </br>
 __Logging:__ </br> 
 </br>
 Logging is done using 
+
 </br>
 Using system and system.io </br>
 </br>
