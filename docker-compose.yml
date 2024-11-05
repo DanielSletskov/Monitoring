@@ -13,7 +13,7 @@ services:
   your_service_name:
     image: sha256:a8e361e0e175d0bcd65b024ed8f961b0d8472dc00a16b14b6979709d5c341c3d
     environment:
-      - CONNECTION_STRING=Server=sqlserver_container;Database=YourDatabaseName;User Id=sa;Password=YourStrong!Passw0rd;
+      - CONNECTION_STRING=Server=sqlserver_container;Database=Company;User Id=sa;Password=yourStrong(!)Password;
     ports:
       - "8080:80"
     depends_on:
